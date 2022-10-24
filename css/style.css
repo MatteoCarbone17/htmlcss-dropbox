@@ -66,7 +66,6 @@
 }
 
 
-
 .main-title {
     width: 100%;
     height: 40%;
@@ -91,4 +90,30 @@
     width: calc(100% / 3);
     background-color: red;
 
+}
+
+.div-content{
+    height: 40%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.conteiner-img-para{
+    display: flex;
+    width: 100%;
+    height: 40%;
+
+
+}
+
+.div-para{
+    height: 100%;
+    width: 40%;
+    background-color: bisque;
+}
+
+.div-img{
+    height: 100%;
+    width: 60%;
+    background-color: yellowgreen;
 }
