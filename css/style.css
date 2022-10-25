@@ -109,7 +109,7 @@ h1{
 }
 
 .content-centered{
-    width: 78vw;
+    width: 76vw;
     margin: 0 auto;
     
 }
@@ -140,7 +140,6 @@ div.main-title>h2{
 
 .cards{
     height: 100%;
-    
     margin-left: .5rem;
     border: solid lightgray;
     width: calc(90% / 3);
@@ -193,11 +192,52 @@ ul.ul-cards{
 }
 
 
-.div-content{
+#div-conteiner{
+    display: flex;
+    justify-content: center;
     height: 350px;
-    width: 100%;
-    background-color: blueviolet;
+    width: 92%;
+    border: solid lightgrey;
+    margin-bottom: 7rem;
 }
+
+.div-button-box{
+    width: 50%;
+    height: 50%;
+    padding-top: 2rem;
+    padding-right: 1rem;
+}
+
+.div-button-box>button{
+    background-color:  rgb(0, 97, 255);
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border:none;
+    margin-left: 25%;
+
+
+
+}
+
+
+.div-box{
+    width: 80%;
+    padding: 2rem 0 0 1.5rem;
+
+}
+
+.div-box>h2{
+    font-size: 1.7rem;
+    padding-bottom: 1.3rem;
+}
+
+.div-box>p{
+    font-size: 1.2rem;
+    padding-top: 2.5rem;
+}
+
+
 
 .conteiner-img-para{
     display: flex;
@@ -302,7 +342,7 @@ div.card-low>p{
 #box-conteiner{
     display: flex;
     background-color: rgb(245, 245, 245);
-    width: 100%;
+    width: 100vw;
 }
 
 
