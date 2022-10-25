@@ -109,7 +109,7 @@ h1{
 }
 
 .content-centered{
-    width: 80%;
+    width: 78vw;
     margin: 0 auto;
     
 }
@@ -120,8 +120,6 @@ h1{
     height: 25%;
     text-align: left;
     padding-top: 1.5rem;
-
-
 }
 
 div.main-title>h2{
@@ -274,7 +272,8 @@ div.card-low>img{
 
 div.card-low>h2{
     padding-top: 1.5rem;
-   font-size: 2rem;
+   font-size: 1.7rem;
+   
 }
 
 div.card-low>p{
@@ -282,34 +281,103 @@ div.card-low>p{
     padding-top: 1.8rem;
  }
 
-.div-separeted{
-    width: 100%;
-    height: 7rem;
-    background-color: darkcyan;
+.div-middle-conteiner{
+    width: 750px;
+    height: 350px;
+    margin: 3rem 0 3rem 0;
 }
+
+.div-middle-conteiner>h2{
+    font-size: 2.7rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.div-middle-conteiner>a{
+    font-size: 1.2rem;
+}
+
+
 
 #box-conteiner{
     display: flex;
+    background-color: rgb(245, 245, 245);
     width: 100%;
-    height: 35rem;
-    background-color: violet;
-
 }
+
 
 .four-box{
     display: flex;
     flex-wrap: wrap;
-    border: solid red;
-    width: 34%;
-
-}
-.box{
-    border: dashed green;
-    background-color: yellow;
-    width:calc(100% / 2);
+    width: calc(100%/ 2);
     height: calc(100% / 2);
+    
+}
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    
+}
+
+.color-bordeaux{
+    background-color: rgb(97, 8, 43);
+    background-image: url(../img/arizona_state_university.svg);
+}
+
+
+.color-green{
+background-color: rgb(162, 211, 155);
+background-image: url(../img/designit.svg);
+}
+
+.color-acqua{
+    background-color: rgb(0, 147, 206);
+    background-image: url(../img/university_of_florida.svg);
+}
+
+.color-red{
+    background-color: rgb(255, 28, 28);
+    background-image: url(../img/topps.svg);
+}
+
+.color-darkred{
+    background-color: rgb(213, 0, 31);
+    background-image: url(../img/world_bicycle_relief.svg);
+}
+
+.color-azure{
+    background-color: rgb(180, 208, 231);
+    background-image: url(../img/hearst_corp.svg);
+}
+
+.color-blue{
+    background-color: blue;
+    background-image: url(../img/lonely_planet.svg);
+}
+
+
+.color-yellow{
+    background-color: rgb(255, 216, 48);
+    background-image: url(../img/clear_channel.svg);
+}
+
+
+
+div.four-box>img{
+    width: 150px;
+    height: 100px;
 
 }
+
+div.four-box>p{
+
+}
+
 
 .low-div{
     justify-content: space-between;
