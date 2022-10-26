@@ -80,8 +80,8 @@ h1{
 }
 
 .p-title>p{
-    font-size: 1.3rem;
-    padding-top: 1.5rem;
+    font-size: 1.1rem;
+    padding-top: 1.3rem;
     margin-bottom: 1.7rem;
 }
 
@@ -158,8 +158,12 @@ div.main-title>h2{
 }
 
 .type-business{
-    padding-left: 40%;
     font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    margin-bottom: -.5rem;
+    
     
 }
 
@@ -202,7 +206,14 @@ span.duration{
 ul.ul-cards{
     margin-top: 3rem;
 }
-
+.type-team{
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    border: solid lightgray;
+    border-bottom: none;
+    padding: .5rem .5rem;
+}
 
 #div-conteiner{
     display: flex;
@@ -254,7 +265,7 @@ ul.ul-cards{
 .conteiner-img-para{
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 600px;
 
 
 }
@@ -263,19 +274,19 @@ ul.ul-cards{
     height: 100%;
     width: 30%;
     padding-top: 6rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
 }
 div.div-para>h2{
     font-size: 2rem;
 }
 
 div.div-para>p{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     padding-top: 2rem;
 }
 
 .white-button{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     padding: 1rem;
     margin-top: 2rem;
     border-color: rgb(128, 128, 128);
