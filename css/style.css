@@ -529,3 +529,11 @@ ul>li{
     color: white;
     margin-bottom: 1.6rem;
 }
+
+.ul-box>hr{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.ul-box>p{
+    color: lightgrey;
+}
