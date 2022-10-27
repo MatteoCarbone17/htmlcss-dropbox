@@ -7,7 +7,17 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1000px;
     
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+main{
+    padding-top: 100px;
 }
 
 .conteiner-head{
